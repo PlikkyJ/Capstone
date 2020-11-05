@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../Styles/Styles.css">
+    <title>PJI Online Store</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="../index.html#welcome">PJI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="../index.html#welcome">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#Specials">Specials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#PCGames">PC Games</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#Hardware">Hardware</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#GetInTouchWithUs">Get In Touch With Us</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                            <!-- shopping cart icon -->
+                            <li>
+                                <a href="cart.html">
+                                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <h1 class="colorchange text-center mb-0" id="BestSellers">Best Sellers</h1>
+    <table class="table table-hover table-sm table-dark mb-0">
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>CyberPunk</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Borderlands3</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>RedDeadRedemption2</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 class="colorchange text-center mb-0" id="Specials">Specials</h1>
+    <div class="container">
+        <div class="row row-cols-2 text-center">
+            <!-- img-thumbnail gives an image a rounded 1px border appearance. -->
+            <!--  img-fluid are applied to the image so that it scales with the parent element. -->
+            <div class="col">
+                <h4>Borderlands3</h4>
+                <h4 class="text-success">R121</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/b/o/borderlands-3-pc-buy-now-cd-key.jpg" class="img img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="borderlands3.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=d9Gu1PspA3Y" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div id="test" class="grid-container">
+                </div>
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Call Of Duty: Black Ops3</h4>
+                <h4 class="text-success">R406</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/c/a/call_of_duty_black_ops_iii_3_pc_.png" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="callofduty.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=qAUYNIDEJ6o" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Doom: Eternal</h4>
+                <h4 class="text-success">R673</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/d/o/doom-eternal-cover.jpg" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="doom.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=FkklG9MA0vM" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>The Elder Scrolls V: Skyrim</h4>
+                <h4 class="text-success">R185</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/t/h/the_elder_scrolls_v_skyrim_vr_pc.png" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="skyrim.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PC Games section -->
+    <h1 class="colorchange text-center mb-0" id="PCGames">PC Games</h1>
+    <div class="container">
+        <div class="row row-cols-2 text-center">
+            <div class="col">
+                <h4>CyberPunk 2077</h4>
+                <h4 class="text-success">R1250</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/c/y/cyberpunk-2077-discount-pre-order-cd-keys.jpg" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="cyberpunk.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=UjxS9ciNlII" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Fallout VR</h4>
+                <h4 class="text-success">R205</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/f/a/fallout_4_vr_pc_cover.png" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="falloutvr.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=QK98_pLu7jI" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Mount&Blade2: Bannerlord</h4>
+                <h4 class="text-success">R682</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/m/o/mount-and-blade-2-bannerlord-pc-cdkeys-cover.jpg" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="bannerlord.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=SSCSy0gk1IM" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Red Dead Redemption 2</h4>
+                <h4 class="text-success">R969</h4><img src="https://cdn.cdkeys.com/700x700/media/catalog/product/r/e/red-dead-redemption-2-pc-cd-keys-rockstar.jpg" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="rdr2.html" class="btn-more">More</a></p>
+                </div>
+                <div class="actions">
+                    <p><a href="https://www.youtube.com/watch?v=F63h3v9QV7w" class="btn-more">Trailer</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hardware section -->
+    <h1 class="colorchange text-center mb-0" id="Hardware">Hardware</h1>
+    <div class="container">
+        <div class="row row-cols-2 text-center">
+            <div class="col">
+                <h4>AIM - Mechanical Keyboard</h4>
+                <h4 class="text-success">R499</h4><img src="https://images.g2a.com/newlayout/2000x2000/1x1x0/f7b9d6c4b1a9/5bc9e955ae653a87811e3a08" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="aim.html" class="btn-more">More</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Logitech K310 Universal Washable Keyboard</h4>
+                <h4 class="text-success">R562</h4><img src="https://images.g2a.com/newlayout/470x470/1x1x0/386a9ac62403/5e0b13a946177c232623dba2" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="logitech.html" class="btn-more">More</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Razer Gigantus Gaming Mouse Pad</h4>
+                <h4 class="text-success">R1069</h4><img src="https://images.g2a.com/newlayout/470x470/1x1x0/97d34bbced2f/5e42668d46177c50001cd6d8" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="razer.html" class="btn-more">More</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Sandberg Gaming Starter Kit Nordic</h4>
+                <h4 class="text-success">R1500</h4><img src="https://images.g2a.com/newlayout/470x470/1x1x0/f6be4d2e6adf/5c08fb2b5bafe35552408977" class="img-thumbnail img-fluid" alt="Responsive image">
+                <div class="actions">
+                    <p><a href="sandberg.html" class="btn-more">More</a></p>
+                </div>
+                <!-- -------cart------- !-->
+                <div class="actions">
+                    <p>
+                        <a class="add-cart btn-more">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z" />
+                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z" />
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fourm section -->
+    <h1 class="colorchange text-center mb-0" id="GetInTouchWithUs">Get In Touch With Us</h1>
+    <form>
+        <div class="form-row bg-dark">
+            <div class="form-group col-md-6">
+                <label for="exampleInputEmail1" class="text-white">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="exampleInputPassword1" class="text-white">Message</label>
+                <input type="message" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div>
+                <label class="text-white">Would you like to recieve Specials</label><br>
+                <input type="radio" name="ans" value="yes"> Yes <br>
+                <input type="radio" name="ans" value="no"> No <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript" src="../script.js"></script>
+</body>
+
+</html>
